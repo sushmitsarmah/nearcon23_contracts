@@ -1,0 +1,17 @@
+[package]
+name = "payment"
+version = "1.0.0"
+publish = false
+edition = "2021"
+
+[dev-dependencies]
+near-sdk = "4.1.1"
+uint = { version = "0.9.3", default-features = false }
+
+[[example]]
+name = "sandbox"
+path = "src/tests.rs"
+
+[dependencies]
+near-sdk = "4.1.1"
+uint = "0.9.3"

@@ -1,0 +1,13 @@
+[package]
+name = "voting"
+version = "1.0.0"
+publish = false
+edition = "2021"
+
+[dev-dependencies]
+near-sdk = "4.1.1"
+uint = { version = "0.9.3", default-features = false }
+
+[dependencies]
+near-sdk = "4.1.1"
+uint = "0.9.3"
